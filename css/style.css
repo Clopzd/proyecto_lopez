@@ -357,4 +357,9 @@ img {
   height: 300px;
 }
 
+.busqueda-container {
+  position: absolute;
+  left: 48%;
+}
+
 /*# sourceMappingURL=style.css.map */
