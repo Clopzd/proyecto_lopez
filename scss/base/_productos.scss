@@ -1,0 +1,95 @@
+.productos-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-image:url(../images/fondo-pared--oscura.jpg);   
+    padding: 25px;
+
+    
+    .card-productos {
+        border-bottom:1px solid beige;
+        display: flex;
+        justify-content: center;  
+        
+        @include mobile {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+        .product-text {
+            font-size: $fuente-mediana;
+            font-weight: 600;
+            color:white;    
+            text-align: center;
+            padding: 25px;
+            margin: auto;
+            font-family: $tipografia-general;
+
+            .product-text h2 {
+                font-size: $fuente-grande;
+                }
+        }
+
+        .img-cerveza {
+            width: 20%;
+            
+            @include mobile {
+                width: 35%;
+            }
+        }
+
+        .img-licores {
+            width: 15%;
+            padding: 20px;
+
+            @include mobile {
+                width: 35%
+            }
+        }
+
+        .img-vinos {
+            width: 10%;
+            padding: 20px;
+
+            @include mobile {
+                width: 35%
+            }
+        }
+
+        .img-bebidas {
+            width: 15%;
+            padding: 2px;
+            margin-right:auto;
+
+            @include mobile {
+                width: 35%
+            }
+        }
+
+        .tabaqueria-text {
+            color: black;
+            font-size: $fuente-mediana;
+            font-weight: 700;
+            text-align: center;
+            margin: auto;
+        }
+        .img-tabaqueria {
+            width: 15%;
+            padding: 20px;
+
+            @include mobile {
+                width: 35%
+            }
+        }
+}
+
+
+
+
+
+

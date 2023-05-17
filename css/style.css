@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-logo-redes {
+  background-color: beige;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .contenedor-logo-redes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+}
+.contenedor-logo-redes .logo {
+  width: 15%;
+}
+@media screen and (max-width: 768px) {
+  .contenedor-logo-redes .logo {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contenedor-logo-redes .logo {
+    width: 60%;
+  }
+}
+.contenedor-logo-redes .redes {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+@media screen and (max-width: 576px) {
+  .contenedor-logo-redes .redes {
+    padding-bottom: 55px;
+  }
+}
+.contenedor-logo-redes .redes .icono-instagram {
+  width: 35px;
+}
+@media screen and (max-width: 768px) {
+  .contenedor-logo-redes .redes .icono-instagram {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contenedor-logo-redes .redes .icono-instagram {
+    width: 20px;
+  }
+}
+.contenedor-logo-redes .redes .icono-facebook {
+  width: 35px;
+}
+@media screen and (max-width: 768px) {
+  .contenedor-logo-redes .redes .icono-facebook {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contenedor-logo-redes .redes .icono-facebook {
+    width: 20px;
+  }
+}
+
+.carousel-container-items {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.productos-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/fondo-pared--oscura.jpg);
+  padding: 25px;
+}
+.productos-container .card-productos {
+  border-bottom: 1px solid beige;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .card-productos {
+    display: block;
+    text-align: center;
+  }
+}
+.productos-container .link {
+  text-decoration: none;
+}
+.productos-container .product-text {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.productos-container .product-text .product-text h2 {
+  font-size: 1.4em;
+}
+.productos-container .img-cerveza {
+  width: 20%;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .img-cerveza {
+    width: 35%;
+  }
+}
+.productos-container .img-licores {
+  width: 15%;
+  padding: 20px;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .img-licores {
+    width: 35%;
+  }
+}
+.productos-container .img-vinos {
+  width: 10%;
+  padding: 20px;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .img-vinos {
+    width: 35%;
+  }
+}
+.productos-container .img-bebidas {
+  width: 15%;
+  padding: 2px;
+  margin-right: auto;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .img-bebidas {
+    width: 35%;
+  }
+}
+.productos-container .tabaqueria-text {
+  color: black;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+.productos-container .img-tabaqueria {
+  width: 15%;
+  padding: 20px;
+}
+@media screen and (max-width: 576px) {
+  .productos-container .img-tabaqueria {
+    width: 35%;
+  }
+}
+
+.footer-container {
+  background-color: beige;
+}
+.footer-container .link {
+  text-decoration: none;
+  color: black;
+}
+.footer-container .footer-links a:hover {
+  color: rgb(94, 0, 0);
+}
+.footer-container .footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+@media screen and (max-width: 576px) {
+  .footer-container .footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 576px) and (max-width: 576px) {
+  .footer-container .footer-links .mapa {
+    display: none;
+  }
+}
+.footer-container .logo-footer {
+  display: flex;
+  width: 15%;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 576px) {
+  .footer-container .logo-footer {
+    width: 35%;
+  }
+}
+
+.cervezas-container {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/fondo-pared--oscura.jpg);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "quilmes brahma andes imperial" "patagonia-24 temple heineken budweiser" " corona stella guinnes carlsberg" "grolsch penon-aguila schneider salta";
+  padding: 50px;
+}
+@media screen and (max-width: 576px) {
+  .cervezas-container {
+    display: block;
+    flex-direction: column;
+    background-color: black;
+  }
+}
+.cervezas-container .cerveza {
+  padding: 60px;
+  transition: all 30ms;
+  position: relative;
+}
+.cervezas-container .cerveza :hover {
+  transform: scale(1.05);
+}
+.cervezas-container .link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
+.menu-licores {
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/fondo-pared--oscura.jpg);
+  display: grid;
+  grid-template-rows: repeat(2, 0.5fr);
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-areas: "whisky gin aperitivos " "vodka ron tequila";
+  color: white;
+  gap: 25px;
+  padding: 25px;
+}
+@media screen and (max-width: 576px) {
+  .menu-licores {
+    display: block;
+  }
+}
+.menu-licores .licores {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid beige;
+}
+.menu-licores .menu-licores h2 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+.menu-licores .img-whisky {
+  width: 300px;
+  height: 250px;
+}
+.menu-licores .img-gin {
+  width: 130px;
+  height: 250px;
+}
+.menu-licores .img-aperitivos {
+  width: 230px;
+  height: 250px;
+}
+.menu-licores .img-vodka {
+  width: 230px;
+  width: 245px;
+}
+.menu-licores .img-ron {
+  width: 230px;
+  height: 305px;
+}
+.menu-licores .img-tequila {
+  width: 230px;
+  height: 300px;
+}
+
+.menu-licores {
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/fondo-pared--oscura.jpg);
+  display: grid;
+  grid-template-rows: repeat(2, 0.5fr);
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-areas: "whisky gin aperitivos " "vodka ron tequila";
+  color: white;
+  gap: 25px;
+  padding: 25px;
+}
+@media screen and (max-width: 576px) {
+  .menu-licores {
+    display: block;
+  }
+}
+.menu-licores .licores {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid beige;
+}
+.menu-licores .menu-licores h2 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+.menu-licores .img-whisky {
+  width: 300px;
+  height: 250px;
+}
+.menu-licores .img-gin {
+  width: 130px;
+  height: 250px;
+}
+.menu-licores .img-aperitivos {
+  width: 230px;
+  height: 250px;
+}
+.menu-licores .img-vodka {
+  width: 230px;
+  width: 245px;
+}
+.menu-licores .img-ron {
+  width: 230px;
+  height: 305px;
+}
+.menu-licores .img-tequila {
+  width: 230px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
