@@ -308,7 +308,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/fondo-pared--oscura.jpg);
+  background-image: url(../../images/fondo-pared--oscura.jpg);
   display: grid;
   grid-template-rows: repeat(2, 0.5fr);
   grid-template-columns: repeat(3, 0.5fr);
