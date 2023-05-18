@@ -90,7 +90,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/fondo-pared--oscura.jpg);
+  background-image: url(../../images/fondo-pared--oscura.jpg);
   padding: 25px;
 }
 .productos-container .card-productos {
@@ -158,7 +158,7 @@ img {
 .productos-container .tabaqueria-text {
   color: black;
   font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   margin: auto;
 }
@@ -295,11 +295,11 @@ img {
   width: 245px;
 }
 .menu-licores .img-ron {
-  width: 230px;
+  width: 200px;
   height: 305px;
 }
 .menu-licores .img-tequila {
-  width: 230px;
+  width: 200px;
   height: 300px;
 }
 
@@ -349,17 +349,34 @@ img {
   width: 245px;
 }
 .menu-licores .img-ron {
-  width: 230px;
+  width: 200px;
   height: 305px;
 }
 .menu-licores .img-tequila {
-  width: 230px;
+  width: 200px;
   height: 300px;
 }
 
 .busqueda-container {
-  position: absolute;
-  left: 48%;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: beige;
+  width: 100%;
+}
+.busqueda-container input {
+  background: rgb(255, 255, 255);
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  color: black;
+}
+.busqueda-container ::placeholder {
+  color: black;
+}
+.busqueda-container .btn {
+  margin: 15px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,24 @@
 .busqueda-container {
-    position: absolute;
-    left: 48%;
+    position: relative;
+    text-align: center;
+    padding:10px;
+    background-color: beige;
+    width: 100%;
+
+        input {
+            background: rgb(255, 255, 255);
+            width: 30%;
+            height: 40px;
+            text-align: center;
+            color:black;
+            
+        }
+
+        ::placeholder {
+            color: black;
+        }
+        .btn {
+            margin: 15px;
+            padding: 5px;
+        }
 }
