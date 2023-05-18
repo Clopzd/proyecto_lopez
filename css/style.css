@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
 }
@@ -9,6 +9,8 @@
   justify-content: space-around;
   font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  width: 100%;
 }
 
 .contenedor-logo-redes {
@@ -90,86 +92,9 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../../images/fondo-pared--oscura.jpg);
-  padding: 25px;
-}
-.productos-container .card-productos {
-  border-bottom: 1px solid beige;
-  display: flex;
-  justify-content: center;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .card-productos {
-    display: block;
-    text-align: center;
-  }
-}
-.productos-container .link {
-  text-decoration: none;
-}
-.productos-container .product-text {
-  font-size: 1.1em;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-  padding: 25px;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.productos-container .product-text .product-text h2 {
-  font-size: 1.4em;
-}
-.productos-container .img-cerveza {
-  width: 20%;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .img-cerveza {
-    width: 35%;
-  }
-}
-.productos-container .img-licores {
-  width: 15%;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .img-licores {
-    width: 35%;
-  }
-}
-.productos-container .img-vinos {
-  width: 10%;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .img-vinos {
-    width: 35%;
-  }
-}
-.productos-container .img-bebidas {
-  width: 15%;
-  padding: 2px;
-  margin-right: auto;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .img-bebidas {
-    width: 35%;
-  }
-}
-.productos-container .tabaqueria-text {
-  color: black;
-  font-size: 1.1em;
-  font-weight: 600;
-  text-align: center;
-  margin: auto;
-}
-.productos-container .img-tabaqueria {
-  width: 15%;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  .productos-container .img-tabaqueria {
-    width: 35%;
-  }
+  background-image: url(../images/fondo-pared--oscura.jpg);
+  padding: 55px;
+  width: 100%;
 }
 
 .footer-container {
@@ -308,7 +233,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../../images/fondo-pared--oscura.jpg);
+  background-image: url(../images/fondo-pared--oscura.jpg);
   display: grid;
   grid-template-rows: repeat(2, 0.5fr);
   grid-template-columns: repeat(3, 0.5fr);
@@ -371,12 +296,22 @@ img {
   text-align: center;
   color: black;
 }
+@media screen and (max-width: 576px) {
+  .busqueda-container input {
+    width: 60%;
+  }
+}
 .busqueda-container ::placeholder {
   color: black;
 }
 .busqueda-container .btn {
   margin: 15px;
   padding: 5px;
+}
+@media screen and (max-width: 576px) {
+  .busqueda-container .btn {
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
