@@ -153,116 +153,41 @@ img {
   margin: auto;
   width: 300px;
 }
-.cervezas-container .penon {
-  height: 450px;
-}
 
 .menu-licores {
-  height: auto;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../images/fondo-pared--oscura.jpg);
-  display: grid;
-  grid-template-rows: repeat(2, 0.5fr);
-  grid-template-columns: repeat(3, 0.5fr);
-  grid-template-areas: "whisky gin aperitivos " "vodka ron tequila";
-  color: white;
-  gap: 25px;
-  padding: 25px;
+  padding: 50px;
 }
-@media screen and (max-width: 576px) {
-  .menu-licores {
-    display: block;
-  }
-}
-.menu-licores .licores {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid beige;
-}
-.menu-licores .menu-licores h2 {
-  display: flex;
-  text-align: center;
+.menu-licores .card-size {
   margin: auto;
+  width: 22rem;
+  height: 1fr;
 }
-.menu-licores .img-whisky {
-  width: 300px;
-  height: 250px;
-}
-.menu-licores .img-gin {
-  width: 130px;
-  height: 250px;
-}
-.menu-licores .img-aperitivos {
-  width: 230px;
-  height: 250px;
-}
-.menu-licores .img-vodka {
-  width: 230px;
-  width: 245px;
-}
-.menu-licores .img-ron {
-  width: 200px;
-  height: 305px;
-}
-.menu-licores .img-tequila {
-  width: 200px;
-  height: 300px;
+.menu-licores .card-size img {
+  width: 100%;
+  height: 500px;
 }
 
 .menu-licores {
-  height: auto;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../images/fondo-pared--oscura.jpg);
-  display: grid;
-  grid-template-rows: repeat(2, 0.5fr);
-  grid-template-columns: repeat(3, 0.5fr);
-  grid-template-areas: "whisky gin aperitivos " "vodka ron tequila";
-  color: white;
-  gap: 25px;
-  padding: 25px;
+  padding: 50px;
 }
-@media screen and (max-width: 576px) {
-  .menu-licores {
-    display: block;
-  }
-}
-.menu-licores .licores {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid beige;
-}
-.menu-licores .menu-licores h2 {
-  display: flex;
-  text-align: center;
+.menu-licores .card-size {
   margin: auto;
+  width: 22rem;
+  height: 1fr;
 }
-.menu-licores .img-whisky {
-  width: 300px;
-  height: 250px;
-}
-.menu-licores .img-gin {
-  width: 130px;
-  height: 250px;
-}
-.menu-licores .img-aperitivos {
-  width: 230px;
-  height: 250px;
-}
-.menu-licores .img-vodka {
-  width: 230px;
-  width: 245px;
-}
-.menu-licores .img-ron {
-  width: 200px;
-  height: 305px;
-}
-.menu-licores .img-tequila {
-  width: 200px;
-  height: 300px;
+.menu-licores .card-size img {
+  width: 100%;
+  height: 500px;
 }
 
 .busqueda-container {
