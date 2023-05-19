@@ -149,12 +149,6 @@ img {
   background-image: url(../images/fondo-pared--oscura.jpg);
   padding: 50px;
 }
-@media screen and (max-width: 576px) {
-  .cervezas-container {
-    display: block;
-    flex-direction: column;
-  }
-}
 .cervezas-container .card {
   margin: auto;
   width: 300px;

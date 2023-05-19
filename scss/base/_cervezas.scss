@@ -6,14 +6,12 @@
     background-repeat:no-repeat ;
     background-image:url(../images/fondo-pared--oscura.jpg);  
     padding: 50px;
-        @include mobile {
-            display: block;
-            flex-direction: column;
-        }
         
         .card {
             margin: auto;
             width: 300px;
+            @include mobile {
+            }
         }
         .penon {
             height: 450px;
