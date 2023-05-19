@@ -5,40 +5,13 @@
     background-position: center;
     background-repeat:no-repeat ;
     background-image:url(../images/fondo-pared--oscura.jpg);  
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(4 , 1fr);
-    grid-template-areas: 
-    "quilmes brahma andes imperial"
-    "patagonia-24 temple heineken budweiser"
-    " corona stella guinnes carlsberg"
-    "grolsch penon-aguila schneider salta"
-    ;
     padding: 50px;
-
-    @include mobile {
-        display: block;
-        flex-direction: column;
-        background-color: black;
-    }
-
-        .cerveza {
-            padding: 60px;
-            transition: all 30ms;
-            position: relative;
+        
+        .card {
+            margin: auto;
+            width: 300px;
         }
-
-        .cerveza :hover {
-            transform: scale(1.05);
+        .penon {
+            height: 450px;
         }
-
-        .link {
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            padding-top: 25px;
-            font-family: $tipografia-general;
-            font-size: $fuente-grande;
-        }
-
 }

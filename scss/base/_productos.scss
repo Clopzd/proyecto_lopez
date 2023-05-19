@@ -3,6 +3,10 @@
     background-position: center;
     background-repeat:no-repeat ;
     background-image:url(../images/fondo-pared--oscura.jpg);   
-    padding: 55px;
+    padding: 50px;
     width: 100%;
+
+        .card-text {
+            color: white;
+        }
 }

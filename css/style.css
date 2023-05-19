@@ -93,8 +93,11 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../images/fondo-pared--oscura.jpg);
-  padding: 55px;
+  padding: 50px;
   width: 100%;
+}
+.productos-container .card-text {
+  color: white;
 }
 
 .footer-container {
@@ -144,34 +147,14 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../images/fondo-pared--oscura.jpg);
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "quilmes brahma andes imperial" "patagonia-24 temple heineken budweiser" " corona stella guinnes carlsberg" "grolsch penon-aguila schneider salta";
   padding: 50px;
 }
-@media screen and (max-width: 576px) {
-  .cervezas-container {
-    display: block;
-    flex-direction: column;
-    background-color: black;
-  }
+.cervezas-container .card {
+  margin: auto;
+  width: 300px;
 }
-.cervezas-container .cerveza {
-  padding: 60px;
-  transition: all 30ms;
-  position: relative;
-}
-.cervezas-container .cerveza :hover {
-  transform: scale(1.05);
-}
-.cervezas-container .link {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  padding-top: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4em;
+.cervezas-container .penon {
+  height: 450px;
 }
 
 .menu-licores {
