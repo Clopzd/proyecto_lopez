@@ -1,2 +1,3 @@
-# preentrega2carloslopez
-contiene sass, variables, mixin 
+Proyecto Carlos Loepz
+En este proyecto pongo en practicas todas las tecnicas vistas en el curso de coderhouse las cuales son:
+contiene html,css,sass, variables,reset, mixin, medias querys y estilos de bootstrap.
